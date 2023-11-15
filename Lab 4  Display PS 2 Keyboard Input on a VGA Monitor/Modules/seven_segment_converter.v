@@ -17,6 +17,7 @@ module seven_segment_converter(
         4'b0111: seg = 7'b1111000; // or 7'h07
         4'b1000: seg = 7'b0000000; // or 7'h7F
         4'b1001: seg = 7'b0010000; // or 7'h4F
+        4'b1010: seg = 7'b0000000;
         default: seg = 7'b1111111;
         endcase
     end

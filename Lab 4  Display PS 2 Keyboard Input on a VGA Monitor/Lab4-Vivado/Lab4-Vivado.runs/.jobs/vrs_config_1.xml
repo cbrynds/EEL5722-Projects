@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="blk_mem_gen_0_synth_1" LaunchDir="G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 4  Display PS 2 Keyboard Input on a VGA Monitor/Lab4-Vivado/Lab4-Vivado.runs/blk_mem_gen_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

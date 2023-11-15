@@ -7,7 +7,7 @@ module seven_segment_controller(
         output [3:0] an
     );
 
-    scan_code_to_dec scan2dec(.dec(digit), .seg(seg));
+    seven_segment_converter scan2dec(.dec(digit), .seg(seg));
 
     assign an = 4'b1110;
     

@@ -122,8 +122,7 @@ always @ (posedge clk) begin
             filter_state <= filter_state + 1;
         end
         4: begin
-            addra1 <= addra1 + 254; // 3rd pixel in the filter row, move
-            to the next row
+            addra1 <= addra1 + 254; // 3rd pixel in the filter row, move to the next row
             pixels[2] <= douta1;
             filter_state <= filter_state + 1;
         end
@@ -138,8 +137,7 @@ always @ (posedge clk) begin
             filter_state <= filter_state + 1;
         end
         7: begin
-            addra1 <= addra1 + 254; // 3rd pixel in the filter row, move
-            to the next row
+            addra1 <= addra1 + 254; // 3rd pixel in the filter row, move to the next row
             pixels[5] <= douta1;
             filter_state <= filter_state + 1;
         end
@@ -154,8 +152,7 @@ always @ (posedge clk) begin
             filter_state <= filter_state + 1;
         end
         10: begin
-            addra1 <= addra1 - 257; // Last filtered pixel, reset to top
-            left
+            addra1 <= addra1 - 257; // Last filtered pixel, reset to top left
             pixels[8] <= douta1;
             filter_state <= filter_state + 1;
         end

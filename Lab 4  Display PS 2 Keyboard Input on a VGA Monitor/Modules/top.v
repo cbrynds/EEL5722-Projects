@@ -16,7 +16,7 @@ wire video_on;
 reg write_char;
 
 // Instance of block ram to store the character data
-character_block_mem inst (
+blk_mem_gen_0 ROM (
     .douta(douta),
     .addra(addra),
     .clka(clk)
@@ -36,6 +36,7 @@ VGA_display_driver display_driver(
     .hsync(hsync),
     .vsync(vsync),
     .p_tick(),
+    .rst(rst),
     .x_pos(x_pos),
     .y_pos(y_pos),
     .data_ena(video_on)

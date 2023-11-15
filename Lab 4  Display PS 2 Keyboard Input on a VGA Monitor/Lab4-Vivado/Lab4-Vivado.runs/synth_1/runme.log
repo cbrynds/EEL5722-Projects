@@ -1,0 +1,348 @@
+
+*** Running vivado
+    with args -log top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+
+
+****** Vivado v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source top.tcl -notrace
+Command: synth_design -top top -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 10160 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:03 . Memory (MB): peak = 406.746 ; gain = 101.426
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top' [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 4  Display PS 2 Keyboard Input on a VGA Monitor/Modules/top.v:2]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_0' [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 4  Display PS 2 Keyboard Input on a VGA Monitor/Lab4-Vivado/Lab4-Vivado.runs/synth_1/.Xil/Vivado-35464-Cory-Desktop/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'blk_mem_gen_0' (1#1) [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 4  Display PS 2 Keyboard Input on a VGA Monitor/Lab4-Vivado/Lab4-Vivado.runs/synth_1/.Xil/Vivado-35464-Cory-Desktop/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'PS2_receiver' [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 4  Display PS 2 Keyboard Input on a VGA Monitor/Modules/PS2_receiver.v:2]
+INFO: [Synth 8-256] done synthesizing module 'PS2_receiver' (2#1) [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 4  Display PS 2 Keyboard Input on a VGA Monitor/Modules/PS2_receiver.v:2]
+INFO: [Synth 8-638] synthesizing module 'VGA_display_driver' [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 4  Display PS 2 Keyboard Input on a VGA Monitor/Modules/VGA_driver.v:1]
+	Parameter HORIZONTAL_DISPLAY_PIXELS bound to: 640 - type: integer 
+	Parameter HSYNC_PULSE_WIDTH bound to: 96 - type: integer 
+	Parameter HSYNC_FRONT_PORCH bound to: 16 - type: integer 
+	Parameter HSYNC_BACK_PORCH bound to: 48 - type: integer 
+	Parameter HORIZONTAL_PIXELS bound to: 799 - type: integer 
+	Parameter H_RETRACE_START bound to: 655 - type: integer 
+	Parameter H_RETRACE_END bound to: 751 - type: integer 
+	Parameter VERTICAL_DISPLAY_PIXELS bound to: 480 - type: integer 
+	Parameter VSYNC_PULSE_WIDTH bound to: 2 - type: integer 
+	Parameter VSYNC_FRONT_PORCH bound to: 10 - type: integer 
+	Parameter VSYNC_BACK_PORCH bound to: 29 - type: integer 
+	Parameter VERTICAL_PIXELS bound to: 520 - type: integer 
+	Parameter V_RETRACE_START bound to: 489 - type: integer 
+	Parameter V_RETRACE_END bound to: 491 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'VGA_display_driver' (3#1) [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 4  Display PS 2 Keyboard Input on a VGA Monitor/Modules/VGA_driver.v:1]
+WARNING: [Synth 8-689] width (11) of port connection 'x_pos' does not match port width (10) of module 'VGA_display_driver' [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 4  Display PS 2 Keyboard Input on a VGA Monitor/Modules/top.v:40]
+WARNING: [Synth 8-689] width (11) of port connection 'y_pos' does not match port width (10) of module 'VGA_display_driver' [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 4  Display PS 2 Keyboard Input on a VGA Monitor/Modules/top.v:41]
+INFO: [Synth 8-638] synthesizing module 'seven_segment_controller' [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 4  Display PS 2 Keyboard Input on a VGA Monitor/Modules/seven_segment_controller.v:3]
+INFO: [Synth 8-638] synthesizing module 'seven_segment_converter' [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 4  Display PS 2 Keyboard Input on a VGA Monitor/Modules/seven_segment_converter.v:3]
+INFO: [Synth 8-256] done synthesizing module 'seven_segment_converter' (4#1) [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 4  Display PS 2 Keyboard Input on a VGA Monitor/Modules/seven_segment_converter.v:3]
+INFO: [Synth 8-256] done synthesizing module 'seven_segment_controller' (5#1) [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 4  Display PS 2 Keyboard Input on a VGA Monitor/Modules/seven_segment_controller.v:3]
+INFO: [Synth 8-256] done synthesizing module 'top' (6#1) [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 4  Display PS 2 Keyboard Input on a VGA Monitor/Modules/top.v:2]
+WARNING: [Synth 8-3331] design seven_segment_controller has unconnected port clk
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 458.742 ; gain = 153.422
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 458.742 ; gain = 153.422
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 4  Display PS 2 Keyboard Input on a VGA Monitor/Lab4-Vivado/Lab4-Vivado.runs/synth_1/.Xil/Vivado-35464-Cory-Desktop/dcp1/blk_mem_gen_0_in_context.xdc] for cell 'ROM'
+Finished Parsing XDC File [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 4  Display PS 2 Keyboard Input on a VGA Monitor/Lab4-Vivado/Lab4-Vivado.runs/synth_1/.Xil/Vivado-35464-Cory-Desktop/dcp1/blk_mem_gen_0_in_context.xdc] for cell 'ROM'
+Parsing XDC File [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 4  Display PS 2 Keyboard Input on a VGA Monitor/lab4_constraints.xdc]
+Finished Parsing XDC File [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 4  Display PS 2 Keyboard Input on a VGA Monitor/lab4_constraints.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 4  Display PS 2 Keyboard Input on a VGA Monitor/lab4_constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 792.871 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'ROM' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:02 ; elapsed = 00:00:13 . Memory (MB): peak = 794.309 ; gain = 488.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:02 ; elapsed = 00:00:13 . Memory (MB): peak = 794.309 ; gain = 488.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for ROM. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:02 ; elapsed = 00:00:13 . Memory (MB): peak = 794.309 ; gain = 488.988
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element count_reg was removed.  [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 4  Display PS 2 Keyboard Input on a VGA Monitor/Modules/PS2_receiver.v:13]
+INFO: [Synth 8-5546] ROM "dec" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:13 . Memory (MB): peak = 794.309 ; gain = 488.988
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---XORs : 
+	   8 Input      1 Bit         XORs := 1     
++---Registers : 
+	               11 Bit    Registers := 1     
+	               10 Bit    Registers := 2     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 5     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 1     
+	  12 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module top 
+Detailed RTL Component Info : 
++---Registers : 
+	               11 Bit    Registers := 1     
+	                4 Bit    Registers := 4     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	  12 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+Module PS2_receiver 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---XORs : 
+	   8 Input      1 Bit         XORs := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 1     
+Module VGA_display_driver 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 2     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4471] merging register 'dec_reg[3:0]' into 'dec_reg[3:0]' [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 4  Display PS 2 Keyboard Input on a VGA Monitor/Modules/top.v:47]
+WARNING: [Synth 8-6014] Unused sequential element dec_reg was removed.  [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 4  Display PS 2 Keyboard Input on a VGA Monitor/Modules/top.v:47]
+INFO: [Synth 8-5587] ROM size for "dec" is below threshold of ROM address width. It will be mapped to LUTs
+WARNING: [Synth 8-6014] Unused sequential element receiver/count_reg was removed.  [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 4  Display PS 2 Keyboard Input on a VGA Monitor/Modules/PS2_receiver.v:13]
+WARNING: [Synth 8-3917] design top has port an[3] driven by constant 1
+WARNING: [Synth 8-3917] design top has port an[2] driven by constant 1
+WARNING: [Synth 8-3917] design top has port an[1] driven by constant 1
+WARNING: [Synth 8-3917] design top has port an[0] driven by constant 0
+WARNING: [Synth 8-3332] Sequential element (receiver/store_reg[10]) is unused and will be removed from module top.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:02 ; elapsed = 00:00:14 . Memory (MB): peak = 794.309 ; gain = 488.988
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:02 ; elapsed = 00:00:19 . Memory (MB): peak = 794.309 ; gain = 488.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:02 ; elapsed = 00:00:19 . Memory (MB): peak = 803.922 ; gain = 498.602
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:02 ; elapsed = 00:00:19 . Memory (MB): peak = 806.141 ; gain = 500.820
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:02 ; elapsed = 00:00:20 . Memory (MB): peak = 806.141 ; gain = 500.820
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:02 ; elapsed = 00:00:20 . Memory (MB): peak = 806.141 ; gain = 500.820
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:02 ; elapsed = 00:00:20 . Memory (MB): peak = 806.141 ; gain = 500.820
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:02 ; elapsed = 00:00:20 . Memory (MB): peak = 806.141 ; gain = 500.820
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:20 . Memory (MB): peak = 806.141 ; gain = 500.820
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:02 ; elapsed = 00:00:20 . Memory (MB): peak = 806.141 ; gain = 500.820
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |blk_mem_gen_0 |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+--------------+------+
+|      |Cell          |Count |
++------+--------------+------+
+|1     |blk_mem_gen_0 |     1|
+|2     |BUFG          |     2|
+|3     |CARRY4        |     4|
+|4     |LUT1          |     2|
+|5     |LUT2          |    20|
+|6     |LUT3          |     8|
+|7     |LUT4          |    26|
+|8     |LUT5          |    12|
+|9     |LUT6          |    19|
+|10    |FDRE          |    74|
+|11    |IBUF          |     4|
+|12    |OBUF          |    25|
++------+--------------+------+
+
+Report Instance Areas: 
++------+-----------------+-------------------+------+
+|      |Instance         |Module             |Cells |
++------+-----------------+-------------------+------+
+|1     |top              |                   |   220|
+|2     |  display_driver |VGA_display_driver |    83|
+|3     |  receiver       |PS2_receiver       |    47|
++------+-----------------+-------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:02 ; elapsed = 00:00:20 . Memory (MB): peak = 806.141 ; gain = 500.820
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 8 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 806.141 ; gain = 165.254
+Synthesis Optimization Complete : Time (s): cpu = 00:00:02 ; elapsed = 00:00:20 . Memory (MB): peak = 806.141 ; gain = 500.820
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+27 Infos, 12 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:02 ; elapsed = 00:00:23 . Memory (MB): peak = 807.855 ; gain = 514.070
+INFO: [Common 17-1381] The checkpoint 'G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 4  Display PS 2 Keyboard Input on a VGA Monitor/Lab4-Vivado/Lab4-Vivado.runs/synth_1/top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.049 . Memory (MB): peak = 807.855 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 15 10:38:39 2023...

@@ -1,0 +1,136 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Nov 15 10:11:59 2023
+# Process ID: 12596
+# Current directory: G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/Lab5-Vivado/Lab5-Vivado.runs/impl_1
+# Command line: vivado.exe -log top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top.tcl -notrace
+# Log file: G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/Lab5-Vivado/Lab5-Vivado.runs/impl_1/top.vdi
+# Journal file: G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/Lab5-Vivado/Lab5-Vivado.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace
+Command: link_design -top top -part xc7a35tcpg236-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 60 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.4
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc]
+WARNING: [Vivado 12-584] No ports matched 'vgaRed[0]'. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vgaRed[0]'. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vgaRed[1]'. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vgaRed[1]'. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vgaRed[2]'. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vgaRed[2]'. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vgaRed[3]'. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vgaRed[3]'. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vgaBlue[0]'. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vgaBlue[0]'. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vgaBlue[1]'. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vgaBlue[1]'. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vgaBlue[2]'. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vgaBlue[2]'. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vgaBlue[3]'. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vgaBlue[3]'. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vgaGreen[0]'. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vgaGreen[0]'. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vgaGreen[1]'. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vgaGreen[1]'. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vgaGreen[2]'. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vgaGreen[2]'. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vgaGreen[3]'. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vgaGreen[3]'. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Hsync'. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Hsync'. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Vsync'. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Vsync'. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'key_dataata'. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/lab5_constraints.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+CRITICAL WARNING: [Project 1-560] Could not resolve non-primitive black box cell 'blk_mem_gen_0' instantiated as 'RAM1'. 2 instances of this cell are unresolved black boxes. [G:/My Drive/Classes/Fall 2023/FPGA Design/EEL5722-Projects/Lab 5  Display an Image on a VGA Monitor/Modules/top.v:24]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+7 Infos, 29 Warnings, 30 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+ERROR: [DRC INBB-3] Black Box Instances: Cell 'RAM1' of type 'blk_mem_gen_0' has undefined contents and is considered a black box.  The contents of this cell must be defined for opt_design to complete successfully.
+ERROR: [DRC INBB-3] Black Box Instances: Cell 'RAM2' of type 'blk_mem_gen_0' has undefined contents and is considered a black box.  The contents of this cell must be defined for opt_design to complete successfully.
+INFO: [Project 1-461] DRC finished with 2 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+ERROR: [Vivado_Tcl 4-78] Error(s) found during DRC. Opt_design not run.
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.290 . Memory (MB): peak = 626.543 ; gain = 11.477
+INFO: [Common 17-83] Releasing license: Implementation
+12 Infos, 29 Warnings, 30 Critical Warnings and 3 Errors encountered.
+opt_design failed
+ERROR: [Common 17-39] 'opt_design' failed due to earlier errors.
+
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 15 10:12:09 2023...
